@@ -10,13 +10,13 @@ updated: '2021-10-13'
 **JavaScript version**
 
 ```js trim.js
-const trim = (str, char) => str.split(char).filter(Boolean).join();
+const trim = (str, char) => str.split(char).filter(Boolean).join('');
 ```
 
 **TypeScript version**
 
 ```ts trim.ts
-const trim = (str: string, char: string): string => str.split(char).filter(Boolean).join();
+const trim = (str: string, char: string): string => str.split(char).filter(Boolean).join('');
 ```
 
 **Examples**
